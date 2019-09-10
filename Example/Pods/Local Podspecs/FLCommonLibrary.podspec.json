@@ -1,8 +1,8 @@
 {
   "name": "FLCommonLibrary",
   "version": "0.1.0",
-  "summary": "A short description of FLCommonLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "use to round button",
+  "description": "TODO: Add long description of the pod here.\n'lease close any current Xcode sessions and use  for this  A short description of .'",
   "homepage": "https://github.com/amuraghav/FLCommonLibrary",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FLCommonLibrary/Classes/**/*"
+  "swift_versions": "4.2",
+  "source_files": "FLCommonLibrary/Classes/**/*",
+  "swift_version": "4.2"
 }
