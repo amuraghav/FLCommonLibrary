@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044961212327979500ABB2C1 /* PRRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044961202327979500ABB2C1 /* PRRoundButton.swift */; };
 		0CF49CF59DB7CA45035C14B4FE3766FA /* FLCommonLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F078AFF26D4469A23F91ED52A3C58DE /* FLCommonLibrary-dummy.m */; };
 		126A4A9651391E35A69A1AEAA5932D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		315A5CD617BFC7DBE1E97DE7E4A6345A /* Pods-FLCommonLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB778E3C6F39723652C95294A98CD524 /* Pods-FLCommonLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,13 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044961202327979500ABB2C1 /* PRRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRRoundButton.swift; sourceTree = "<group>"; };
 		2611AFB4C89175CF3A3EB2A374F1675A /* FLCommonLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCommonLibrary-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B6BB20864957AE010429A544465C82F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B6BB20864957AE010429A544465C82F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		43390D37E4A0A9186BC9961E2F3732C6 /* FLCommonLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLCommonLibrary.xcconfig; sourceTree = "<group>"; };
 		55BAB9B7CC263D0E030AE52A45C0E714 /* Pods-FLCommonLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCommonLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		565B5E4B129E2019EFA1382A6AD2BC55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		639FDDB9E7E4C031FA7F000AFE0140D3 /* FLCommonLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLCommonLibrary.framework; path = FLCommonLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B5E4B129E2019EFA1382A6AD2BC55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		639FDDB9E7E4C031FA7F000AFE0140D3 /* FLCommonLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLCommonLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F078AFF26D4469A23F91ED52A3C58DE /* FLCommonLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLCommonLibrary-dummy.m"; sourceTree = "<group>"; };
 		7FC255C921B24B7EC5E499A768D9A36C /* FLCommonLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCommonLibrary-umbrella.h"; sourceTree = "<group>"; };
 		83D1E575E2324F298010438B544A00D7 /* Pods-FLCommonLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCommonLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -42,12 +44,12 @@
 		8A32B762E542DF78FF25FB7AB2DF71A5 /* FLCommonLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLCommonLibrary.modulemap; sourceTree = "<group>"; };
 		927E3BF6B54C59053070F96E8E76D158 /* FLCommonLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLCommonLibrary-Info.plist"; sourceTree = "<group>"; };
 		93627E17C9F45619EA3BF12978C51B2C /* Pods-FLCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0657C2D397765B12AC851CE971A3380 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FLCommonLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B4D620BE0D1D006D3F394B7CD61EA76B /* Pods-FLCommonLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLCommonLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		CB778E3C6F39723652C95294A98CD524 /* Pods-FLCommonLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCommonLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D87C4260C2963315F1C2D579830F3E7E /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLCommonLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DE131AC80C3C46E575AF3E488E2D4EE1 /* Pods_FLCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLCommonLibrary_Tests.framework; path = "Pods-FLCommonLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87C4260C2963315F1C2D579830F3E7E /* FLCommonLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FLCommonLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE131AC80C3C46E575AF3E488E2D4EE1 /* Pods_FLCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4EFEF6975E0DC892CE33EC73FFE07F /* Pods-FLCommonLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCommonLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8DCE4F2B129948D5F978AD0A64AF20C /* Pods-FLCommonLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCommonLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 		4F6B7250A9EDE4C00D928B6765360EDD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				044961202327979500ABB2C1 /* PRRoundButton.swift */,
 				D87C4260C2963315F1C2D579830F3E7E /* FLCommonLibrary.podspec */,
 				565B5E4B129E2019EFA1382A6AD2BC55 /* LICENSE */,
 				3B6BB20864957AE010429A544465C82F /* README.md */,
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF49CF59DB7CA45035C14B4FE3766FA /* FLCommonLibrary-dummy.m in Sources */,
+				044961212327979500ABB2C1 /* PRRoundButton.swift in Sources */,
 				F9B4E36B6C37377F662D0884D19DF5E6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
